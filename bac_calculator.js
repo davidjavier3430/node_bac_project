@@ -58,8 +58,7 @@ if (valueSelect === "bac") {
   };
 
   bacResult = new Bac(config);
-  bacResult.calculate({});
-  bacResult.checkDrive();
+  bacResult.calculate({}).checkDrive();
   console.log(bacResult);
 
   if (bacResult.canDrive) {
